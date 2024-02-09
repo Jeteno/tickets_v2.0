@@ -1,6 +1,6 @@
 import Sidebar from '../Sidebar/Sidebar'
 import Filtration from '../Filtration/Filtration'
-import Ticket from '../Ticket/Ticket'
+import Cards from '../Cards/Cards'
 import Button from '../Button/Button'
 
 const Content = () => {
@@ -11,7 +11,7 @@ const Content = () => {
                <div className="content__card">
                   <Sidebar/>
                   <Filtration/>
-                  <Ticket/>
+                  <Cards/>
                   <Button/>
                </div>
             </div>
